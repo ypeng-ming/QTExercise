@@ -22,26 +22,7 @@
      <height>30</height>
     </rect>
    </property>
-   <widget class="QWidget" name="horizontalLayoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>169</width>
-      <height>80</height>
-     </rect>
-    </property>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QPushButton" name="pushButton">
-       <property name="text">
-        <string>弹出</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btnDialog">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -54,7 +35,7 @@
      <string>Dialog</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="btnWidget">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -67,7 +48,7 @@
      <string>Widget</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="btnMainWindow">
     <property name="geometry">
      <rect>
       <x>390</x>
@@ -78,6 +59,19 @@
     </property>
     <property name="text">
      <string>MainWindow</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>0</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>弹出</string>
     </property>
    </widget>
   </widget>

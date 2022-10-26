@@ -16,10 +16,16 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
         main.cpp
-        framelesswidgetcopy.cpp
-        framelesswidgetcopy.h
-        framelesswidgetcopy.ui
+        frmframelesswidgetcopy.cpp
+        frmframelesswidgetcopy.h
+        frmframelesswidgetcopy.ui
+        framelesswidgetcopy2.cpp
+        framelesswidgetcopy2.h
+        ui_frmframelesswidgetcopy.h
 )
+
+ADD_SUBDIRECTORY(framelessformcopy)
+ADD_SUBDIRECTORY(framelesscorecopy)
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(framelesswidgetcopy
